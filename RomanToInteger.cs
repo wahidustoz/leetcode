@@ -1,3 +1,6 @@
+
+// Console.WriteLine(solution.RomanToInt("MCMXCIV"));
+
 public partial class Solution
 {
     public int RomanToInt(string s)
@@ -15,6 +18,7 @@ public partial class Solution
         return result + RomanDigits(s[s.Length - 1]);
     }
 
+#pragma warning disable CS8509
     private int RomanDigits(char c)
     => c switch
     {
@@ -26,4 +30,5 @@ public partial class Solution
         'D' => 500,
         'M' => 1000
     };
+#pragma warning restore CS8509
 }

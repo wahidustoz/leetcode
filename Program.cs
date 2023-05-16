@@ -1,2 +1,2 @@
 ﻿var solution = new Solution();
-Console.WriteLine(solution.RomanToInt("MCMXCIV"));
+Console.WriteLine(solution.IsPalindrome(int.Parse(Console.ReadLine())));
