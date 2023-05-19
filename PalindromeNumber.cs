@@ -1,3 +1,6 @@
+// var solution = new Solution();
+// Console.WriteLine(solution.IsPalindrome(int.Parse(Console.ReadLine())));
+
 public partial class Solution
 {
     public bool IsPalindrome(int x)

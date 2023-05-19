@@ -1,2 +1,6 @@
-﻿var solution = new Solution();
-Console.WriteLine(solution.IsPalindrome(int.Parse(Console.ReadLine())));
+﻿Console.WriteLine(new Solution().LongestCommonPrefix(new string[]
+{
+    "flower",
+    "flow",
+    "flight"
+}));
