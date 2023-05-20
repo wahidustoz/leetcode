@@ -1,6 +1,1 @@
-﻿Console.WriteLine(new Solution().LongestCommonPrefix(new string[]
-{
-    "flower",
-    "flow",
-    "flight"
-}));
+﻿Console.WriteLine(new Solution().IsValid(Console.ReadLine()));

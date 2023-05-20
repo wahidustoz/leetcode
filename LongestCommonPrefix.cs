@@ -1,3 +1,9 @@
+// Console.WriteLine(new Solution().LongestCommonPrefix(new string[]
+// {
+//     "flower",
+//     "flow",
+//     "flight"
+// }));
 public partial class Solution
 {
     public string LongestCommonPrefix(string[] strs) 
